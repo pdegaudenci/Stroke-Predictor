@@ -24,18 +24,26 @@ las distintas metricas de evaluacion para cada metodo de balanceo de datos para 
 
 ## Capturas de aplicacion integrada
 
-
-
-## Comenzando 🚀
 ### Presentación dashboard
+![presenatcion](https://user-images.githubusercontent.com/73450522/193939242-01d33370-6a01-453f-bcd6-7c0a6db037b7.jpg)
 
 ### Visualizacion dashboard
+![visualizacion de datos](https://user-images.githubusercontent.com/73450522/193939276-42370e16-c337-435c-863b-e78acc4da329.jpg)
 
 ### Modelo ML dashboard
+![seleccion del modelo](https://user-images.githubusercontent.com/73450522/193939310-64d06dd4-60a0-4015-9a66-6746f43e877f.jpg)
+![modelo](https://user-images.githubusercontent.com/73450522/193939316-793d4f03-8539-49a0-99a5-3c4491961d10.jpg)
 
 ### Codigo QR dashboard
+![repo](https://user-images.githubusercontent.com/73450522/193939332-bc6e538e-7cfe-493b-b3bc-a0d663d942dc.jpg)
 
 ### Programa CLI
+![menu](https://user-images.githubusercontent.com/73450522/193939351-112acd46-6a4a-45d3-b53a-df30108784d9.jpg)
+![mandatory questions](https://user-images.githubusercontent.com/73450522/193939370-5ad6bd01-6a75-4c1c-9bf9-889cdda125cd.jpg)
+![prediccion](https://user-images.githubusercontent.com/73450522/193939388-0bcaeaf1-a3f2-4ca6-9015-2bb13492826b.jpg)
+![questions complementary](https://user-images.githubusercontent.com/73450522/193939402-2cd9cd85-a00d-4da1-bfae-5e848397da85.jpg)
+
+## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
