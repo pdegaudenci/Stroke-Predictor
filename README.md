@@ -33,17 +33,17 @@ _Ejecutar para despleglar dashboard_
 ```
 cd DASHBOARD
 
-python bain_dash.py
+python brain_dash.py
 ```
 ## Construido con 🛠️
 
 _Tecnologias usadas:_
 * Lenguaje de programacion -> Python
 * Command Line Input Program -> Python
-	** Manejo del teclado, consola de texto y terminal -> libreria curses
-	** Estilos de fuente --> libreria colorama y tabulate
-	** Menu y validaciones de entrada de usuario -> librerias Pyinquirer y prompt
-	** Persistencia de datos -> libreria pickle y joblib
+** Manejo del teclado, consola de texto y terminal -> libreria curses
+** Estilos de fuente --> libreria colorama y tabulate
+** Menu y validaciones de entrada de usuario -> librerias Pyinquirer y prompt
+** Persistencia de datos -> libreria pickle y joblib
 * Dashboard -> libreria dash
 * Gestor de paquetes y dependencias -> pip 
 * Analisis de datos -> jupyter notebook, notebook de kaggle y librerias pandas y numpy
