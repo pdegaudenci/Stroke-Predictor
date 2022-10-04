@@ -27,6 +27,15 @@ las distintas metricas de evaluacion para cada metodo de balanceo de datos para 
 
 
 ## Comenzando 🚀
+### Presentación dashboard
+
+### Visualizacion dashboard
+
+### Modelo ML dashboard
+
+### Codigo QR dashboard
+
+### Programa CLI
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
