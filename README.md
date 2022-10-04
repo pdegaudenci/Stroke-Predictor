@@ -21,6 +21,11 @@ El modelo se basa en el desarrollo, evaluación y selección de algoritmos de Cl
 las distintas metricas de evaluacion para cada metodo de balanceo de datos para los distintos algoritmos de clasificacion evaluados. En el informe de clasificacion se representan visualmente las metricas con matriz de confusion y reporte de clasificacion del modelo de ML seleccionado
 * Cuardernos de jupyter: Desglose de todo el desarrollo del analisis exploratorio de datos --> preparacion, procesamiento , analisis de los datos y sus respectivas visualizaciones graficas
 ![Colorful Web Domain Price List Instagram Post (1)](https://user-images.githubusercontent.com/110173993/193646445-89ec56bb-ae7b-434f-a617-7fe5af4818fb.png)
+
+## Capturas de aplicacion integrada
+
+
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
