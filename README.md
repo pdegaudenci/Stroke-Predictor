@@ -6,17 +6,20 @@ Presentamos este proyecto que tiene por objetivo evaluar un modelo predictor par
 El modelo se basa en el desarrollo, evaluación y selección de algoritmos de Clasificación de Machine Learning. Para ello se utiliza un programa de tipo CLI,  que utilizará al modelo   a traves de preguntas que se formulan al usuario y ayuden a la predicción del Ictus.
 
 ## Descripcion del proyecto 
-*Alcance--> Entregables  
-**Un programa que por línea de comandos pida un input de datos y devuelva una predicción binaria 
-**Algoritmo de clasificacion con un overfitting menor al 5%
-**Informe de clasificacion con Analisis exploratorio de datos y sustentacion del modelo de machine learning
+* Alcance--> Entregables:  
+** Un programa que por línea de comandos pida un input de datos y devuelva una predicción binaria 
+** Algoritmo de clasificacion con un overfitting menor al 5%
+** Informe de clasificacion con Analisis exploratorio de datos y sustentacion del modelo de machine learning
 * Plazo: 8 dias
-## Desarrollo del proyecto 
+### Desarrollo del proyecto 
 * Analisis de datos : EDA (Exploracion basica de datos, inputacion de valores perdidos, tratamiento y limpieza de datos e ingenieria de caracteristicas) y formulacion de hipotesis
-* Visualizacion: correlaciones entre variables, y graficas que sustenten hipotesis
+* Visualizacion: correlaciones entre variables, graficas que sustenten hipotesis asi como para poder representar visualmente toda informacion de interes para el proyecto
 * Seleccion del modelo de machine Learning : metodos de balanceo de datos, entrenamiento de modelo de clasificacion, ajuste de hiperparametros (tunning) y analisis de pesos de caracteristicas
 * Metricas analizadas para seleccion del modelo: accuracy, precission, recall, f1 , curvas ROC y evaluacion del overfitting
 * Programa Command Line input: Menu interactivo en consola de terminal, que solicita unas respuestas al usuario, que serviran de entradas para ser procesadas por el modelo de machine learning, y hacer una prediccion. Ademas, está la opción de responder unas preguntas complementarias (que surjen de la investigacion previa) ; esta recoleccion de datos servira para mejorar el rendimiento del modelo de ML en el futuro
+* Dashboard: Aplicacion hecha en dash, que se estructura en cuatro pestañas: Presentacion, analisis y visualizacion de datos,seleccion de modelo predictor, informe de clasificacion y repositorio del proyecto (Con codigo QR enlazado al repositorio github). En la seccion de visualizacion se muestran las relaciones entre las variables y su incidencia en la prediccion de ictus. En la seccion de seleccion de modelo, se visualizan 
+las distintas metricas de evaluacion para cada metodo de balanceo de datos para los distintos algoritmos de clasificacion evaluados. En el informe de clasificacion se representan visualmente las metricas con matriz de confusion y reporte de clasificacion del modelo de ML seleccionado
+* Cuardernos de jupyter: Desglose de todo el desarrollo del analisis exploratorio de datos --> preparacion, procesamiento , analisis de los datos y sus respectivas visualizaciones graficas
 ![Colorful Web Domain Price List Instagram Post (1)](https://user-images.githubusercontent.com/110173993/193646445-89ec56bb-ae7b-434f-a617-7fe5af4818fb.png)
 ## Comenzando 🚀
 
@@ -43,8 +46,16 @@ pip install -r requirements.txt
 _Ejecutar para despleglar dashboard_
 ```
 cd DASHBOARD
-
+```
+```
 python brain_dash.py
+```
+_Ejecutar CLI_
+```
+cd CLI
+```
+```
+python main.py
 ```
 ## Construido con 🛠️
 
