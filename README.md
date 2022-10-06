@@ -13,7 +13,7 @@ El modelo se basa en el desarrollo, evaluación y selección de algoritmos de Cl
 * Plazo: 8 dias
 ### Desarrollo del proyecto 
 * Analisis de datos : EDA (Exploracion basica de datos, inputacion de valores perdidos, tratamiento y limpieza de datos e ingenieria de caracteristicas) y formulacion de hipotesis
-* Visualización: correlaciones entre variables, graficas que sustenten hipótesis, asi como para poder representar visualmente toda informacion de interes para el proyecto, como estan balanceados los datos y extraer conclusiones signifitativas del cconjunto de datos.
+* Visualización: correlaciones entre variables, graficas que sustenten hipótesis, , como estan balanceados los datos, detectar valores atípicos, reconocer tendencias y patrones, y extraer conclusiones signifitativas del conjunto de datos,asi como para poder representar visualmente toda informacion de interes para el proyecto
 * Seleccion del modelo de machine Learning : metodos de balanceo de datos, entrenamiento de modelo de clasificacion, ajuste de hiperparametros (tunning) y analisis de pesos de caracteristicas
 * Metricas analizadas para seleccion del modelo: accuracy, precission, recall, f1 , curvas ROC y evaluacion del overfitting
 * Programa Command Line input: Menu interactivo en consola de terminal, que solicita unas respuestas al usuario, que serviran de entradas para ser procesadas por el modelo de machine learning, y hacer una prediccion. Ademas, está la opción de responder unas preguntas complementarias (que surjen de la investigacion previa) ; esta recoleccion de datos servira para mejorar el rendimiento del modelo de ML en el futuro
