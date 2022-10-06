@@ -1,11 +1,11 @@
 ![Captura de Pantalla 2022-10-03 a la(s) 4 23 27 p  m](https://user-images.githubusercontent.com/110174766/193601574-bf38296f-64e3-4099-8e3f-9d4635d9cb93.png)
 # Modelo de Machine Learning para la Predicción de Ictus
 
-Presentamos este proyecto que tiene por objetivo evaluar un modelo predictor para la enfermedad de Ictus, llevado a cabo con 11 variables de información con origen de un data set, en el que se incluyen 4,200 registros de casos positivos y negativos.
+Presentamos este proyecto que tiene por objetivo evaluar un modelo predictor para la enfermedad de Ictus, llevado a cabo con 11 variables de información con origen de un dataset, en el que se incluyen 4,200 registros de casos positivos y negativos.
 
 El modelo se basa en el desarrollo, evaluación y selección de algoritmos de Clasificación de Machine Learning. Para ello se utiliza un programa de tipo CLI,  que utilizará al modelo   a traves de preguntas que se formulan al usuario y ayuden a la predicción del Ictus.
 
-## Descripcion del proyecto 
+## Descripción del proyecto 
 * Alcance--> Entregables:  
 ** Un programa que por línea de comandos pida un input de datos y devuelva una predicción binaria 
 ** Algoritmo de clasificacion con un overfitting menor al 5%
@@ -13,7 +13,7 @@ El modelo se basa en el desarrollo, evaluación y selección de algoritmos de Cl
 * Plazo: 8 dias
 ### Desarrollo del proyecto 
 * Analisis de datos : EDA (Exploracion basica de datos, inputacion de valores perdidos, tratamiento y limpieza de datos e ingenieria de caracteristicas) y formulacion de hipotesis
-* Visualizacion: correlaciones entre variables, graficas que sustenten hipotesis asi como para poder representar visualmente toda informacion de interes para el proyecto
+* Visualización: correlaciones entre variables, graficas que sustenten hipótesis, asi como para poder representar visualmente toda informacion de interes para el proyecto, como estan balanceados los datos y extraer conclusiones signifitativas del cconjunto de datos.
 * Seleccion del modelo de machine Learning : metodos de balanceo de datos, entrenamiento de modelo de clasificacion, ajuste de hiperparametros (tunning) y analisis de pesos de caracteristicas
 * Metricas analizadas para seleccion del modelo: accuracy, precission, recall, f1 , curvas ROC y evaluacion del overfitting
 * Programa Command Line input: Menu interactivo en consola de terminal, que solicita unas respuestas al usuario, que serviran de entradas para ser procesadas por el modelo de machine learning, y hacer una prediccion. Ademas, está la opción de responder unas preguntas complementarias (que surjen de la investigacion previa) ; esta recoleccion de datos servira para mejorar el rendimiento del modelo de ML en el futuro
