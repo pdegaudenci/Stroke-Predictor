@@ -3,7 +3,7 @@
 
 Presentamos este proyecto que tiene por objetivo evaluar un modelo predictor para la enfermedad de Ictus, llevado a cabo con 11 variables de información con origen de un dataset, en el que se incluyen 4,200 registros de casos positivos y negativos.
 
-El modelo se basa en el desarrollo, evaluación y selección de algoritmos de Clasificación de Machine Learning. Para ello se utiliza un programa de tipo CLI,  que utilizará al modelo   a traves de preguntas que se formulan al usuario y ayuden a la predicción del Ictus.
+El modelo se basa en el desarrollo, evaluación y selección de algoritmos de Clasificación de Machine Learning. Para ello se utiliza un programa con una interfaz de usuario de tipo CLI (Command Line Interface),  que utilizará al modelo   a traves de preguntas que se formulan al usuario y ayuden a la predicción del Ictus.
 
 ## Descripción del proyecto 
 * Alcance--> Entregables:  
@@ -16,7 +16,7 @@ El modelo se basa en el desarrollo, evaluación y selección de algoritmos de Cl
 * Visualización: correlaciones entre variables, gráficas que sustenten hipótesis, , como están balanceados los datos, detectar valores atípicos, reconocer tendencias y patrones, y extraer conclusiones significativas del conjunto de datos,así como poder representar visualmente toda información de interés del proyecto.
 * Selección del modelo de machine Learning : metodos de balanceo de datos, entrenamiento de modelo de clasificación, ajuste de hiperparametros (tunning) y análisis de pesos de características
 * Métricas analizadas en la selección del modelo: accuracy, precission, recall, f1 , curvas ROC y evaluación del overfitting
-* Programa Command Line input: Menu interactivo en consola de terminal, que solicita una serie de respuestas al usuario, que servirán de entradas para ser procesadas por el modelo de machine learning, el cual hará una predicción. Además, está la opción de responder unas preguntas complementarias (que surjen de la investigacion previa) ; cuyas respuestas servirán para mejorar el rendimiento predictivo del modelo de ML en el futuro.
+* Programa con interfaz de usuario de tipo CLI: Menu interactivo en consola de terminal, que solicita una serie de respuestas al usuario, que servirán de entradas para ser procesadas por el modelo de machine learning, el cual hará una predicción. Además, está la opción de responder unas preguntas complementarias (que surjen de la investigacion previa) ; cuyas respuestas servirán para mejorar el rendimiento predictivo del modelo de ML en el futuro.
 * Dashboard: Aplicación hecha en dash, que se estructura en cuatro pestañas: Presentación, análisis y visualización de datos,seleccion de modelo predictor, informe de clasificación y repositorio del proyecto (Con codigo QR enlazado al repositorio github). En la sección de visualizacion se muestran las relaciones entre las variables y su incidencia en la prediccion de ictus. En la sección de selección de modelo, se visualizan 
 las distintas métricas de evaluación para cada método de balanceo de datos para los distintos algoritmos de clasificación evaluados. En el informe de clasificación se representan visualmente las métricas, matriz de confusión y reporte de clasificación del modelo de ML seleccionado
 * Cuardernos de jupyter: Desglose de todo el desarrollo del analisis exploratorio de datos --> preparacion, procesamiento , analisis de los datos y sus respectivas visualizaciones gráficas para confirmar/ descartar hipótesis de datos.
