@@ -100,13 +100,12 @@ python main.py
 _Tecnologias usadas:_
 * Lenguaje de programacion -> Python
 * Command Line Input Program -> Python
-<ul>Librerias de python:
+<ul><h6>>Librerias de python:</h6>
   <li>Manejo del teclado, consola de texto y terminal -> libreria curses y modulos subprocess y os </li>
   <li> Estilos de fuente --> libreria colorama y tabulate</li>
   <li>Menu y validaciones de entrada de usuario -> librerias Pyinquirer y prompt</li>
   <li>Persistencia de datos -> libreria pickle y joblib</li>
-  <li></li>
-  </u>
+  </ul>
 * Dashboard -> libreria dash
 * Gestor de paquetes y dependencias -> pip 
 * Análisis de datos -> jupyter notebook, notebook de kaggle y librerias pandas y numpy
