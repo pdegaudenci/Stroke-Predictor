@@ -1,7 +1,7 @@
 ![Captura de Pantalla 2022-10-03 a la(s) 4 23 27 p  m](https://user-images.githubusercontent.com/110174766/193601574-bf38296f-64e3-4099-8e3f-9d4635d9cb93.png)
 # Modelo de Machine Learning para la Predicción de Ictus (Python)
 
-Este proyecto que tiene por objetivo generar un modelo predictor de de Ictus, entrenado con informacion proveniente de un data con 4200 registros etiquetados de pacientes que han sufrido ictus. Se componen de 11 caracteristicas o variables de entrada y su correspondiente columna etiquetada de salida (Si/No).
+Este proyecto que tiene por objetivo servir un modelo predictor  de Ictus, entrenado con informacion proveniente de un dataset con 4200 registros etiquetados de pacientes que han sufrido ictus y desplegada en una aplicación de usuario por linea de comandos. Se componen de 11 caracteristicas o variables de entrada y su correspondiente columna etiquetada de salida (Si/No).
 
 Se realizaron 6 etapas fundamentales: Analisis Exploratorio de datos, limpieza e ingenieria de caracteristicas , preprocesado y transformacion de los datos , entrenamiento y evaluacion del modelo, desarrollo de la aplicacion de despliegue del modelo e implemntación.
 
@@ -100,10 +100,13 @@ python main.py
 _Tecnologias usadas:_
 * Lenguaje de programacion -> Python
 * Command Line Input Program -> Python
-** Manejo del teclado, consola de texto y terminal -> libreria curses y modulos subprocess y os 
-** Estilos de fuente --> libreria colorama y tabulate
-** Menu y validaciones de entrada de usuario -> librerias Pyinquirer y prompt
-** Persistencia de datos -> libreria pickle y joblib
+<ul>Librerias de python:
+  <li>Manejo del teclado, consola de texto y terminal -> libreria curses y modulos subprocess y os </li>
+  <li> Estilos de fuente --> libreria colorama y tabulate</li>
+  <li>Menu y validaciones de entrada de usuario -> librerias Pyinquirer y prompt</li>
+  <li>Persistencia de datos -> libreria pickle y joblib</li>
+  <li></li>
+  </u>
 * Dashboard -> libreria dash
 * Gestor de paquetes y dependencias -> pip 
 * Análisis de datos -> jupyter notebook, notebook de kaggle y librerias pandas y numpy
