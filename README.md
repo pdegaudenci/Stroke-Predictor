@@ -19,7 +19,7 @@ El desarrollo del proyecto se realizó segun las siguientes fases:
 * Seleccion del modelo y optimizacion para mejorar su rendimiento. Elaboracion de informe de rendimiento en Dash (Python)
 * Implementación del servicio predictivo: Uso efectivo del modelo predictivo a traves de una aplicacion cliente, desarrollada en Python, con una aplicacion CLI. Esta es la solucion final que puede ser desplegada  en un servidor o dispositivo para que otros usuarios puedan usarlo.
 
-<b>El detalle de las etapas de exploracion y visualizacion,limpieza y procesamiento de los datos junto con las etapas de entrenamiento-evaluacion y seleccion del modelo se encuentran en los cuadernos de jupyter contenidos en las Carpetas de MODELO </b> 
+<b>El detalle de las etapas de exploracion y visualizacion,limpieza y procesamiento de los datos junto con las etapas de entrenamiento-evaluacion y seleccion del modelo se encuentran en los cuadernos de jupyter contenidos en la carpeta MODELO. </b> 
 
 
 ## Descripción del proyecto 
