@@ -5,8 +5,9 @@ Este proyecto que tiene por objetivo servir un modelo predictor  de Ictus, entre
 
 Se realizaron 6 etapas fundamentales: Analisis Exploratorio de datos, limpieza e ingenieria de caracteristicas , preprocesado y transformacion de los datos , entrenamiento y evaluacion del modelo, desarrollo de la aplicacion de despliegue del modelo e implemntación.
 
-El modelo fue seleccionado, luego de evaluar los rendimientas de algoritmo de Clasificación de Machine Learning preentrenados, con el objetivo de poder predecir la probabilidad que una persona padezca Ictus en el corto plazo , dado un conjunto de caracteristicas personales.
+El modelo fue seleccionado, luego de evaluar los rendimientas de diferentes algoritmos de Clasificación de Machine Learning preentrenados, con el objetivo de poder predecir la probabilidad que una persona padezca Ictus en el corto plazo , dado un conjunto de caracteristicas personales.
 Para ello se despliega el modelo dentro de un programa con una interfaz de usuario de tipo CLI (Command Line Interface),  cuyo fin es recolectar cierta informacion del usuario (a traves de preguntas), la cual es preprocesada e ingresada al modelo para la generacion de una predicción de Ictus que se visualiza al usuario por pantalla.
+Este programa será el cliente que usará el modelo de M.L generado. 
 
 El desarrollo del proyecto se realizó segun las siguientes fases:
 * Limpieza de los datos: para controlar errores,imputacion de valores perdidos , tratamiento de valores atípicos o outliers, etc.
@@ -16,9 +17,9 @@ El desarrollo del proyecto se realizó segun las siguientes fases:
 * Entrenar de los modelos: Division de los datos en dos conjuntos (datos de entrenamiento y datos de validación). Entrenamiento del modelo con datos de entrenamiento y, posteriormente, evaluacion del rendimiento modelo de  mediante el conjunto de datos de validación. 
 * Evaluar el rendimiento: Comparacion de la proximidad de las predicciones del modelo con las etiquetas conocidas, basandome en determinadas métricas del modelo, tales como precision, exactitud o sensibilidad.
 * Seleccion del modelo y optimizacion para mejorar su rendimiento. Elaboracion de informe de rendimiento en Dash (Python)
-* Implementación del servicio predictivo: Uso efectivo del modelo predictivo a traves de una aplicacion, desarrollada en Python, con una aplicacion CLI. Esta es la solucion final que puede ser desplegada  en un servidor o dispositivo para que otros usuarios puedan usarlo.
+* Implementación del servicio predictivo: Uso efectivo del modelo predictivo a traves de una aplicacion cliente, desarrollada en Python, con una aplicacion CLI. Esta es la solucion final que puede ser desplegada  en un servidor o dispositivo para que otros usuarios puedan usarlo.
 
-
+<b>El detalle de las etapas de exploracion y visualizacion,limpieza y procesamiento de los datos junto con las etapas de entrenamiento-evaluacion y seleccion del modelo se encuentran en los cuadernos de jupyter contenidos en las Carpetas de MODELO </b> 
 
 
 ## Descripción del proyecto 
