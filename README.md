@@ -1,7 +1,8 @@
 ![Captura de Pantalla 2022-10-03 a la(s) 4 23 27 p  m](https://user-images.githubusercontent.com/110174766/193601574-bf38296f-64e3-4099-8e3f-9d4635d9cb93.png)
 # Modelo de Machine Learning para la Predicción de Ictus (Python)
 
-Este proyecto que tiene por objetivo servir un modelo predictor  de Ictus, entrenado con informacion proveniente de un dataset con 4200 registros etiquetados de pacientes que han sufrido ictus y desplegada en una aplicación de usuario por linea de comandos. Se componen de 11 caracteristicas o variables de entrada y su correspondiente columna etiquetada de salida (Si/No).
+Este proyecto que tiene por objetivo servir un modelo predictor de Ictus, entrenado con informacion proveniente de un dataset con 4200 registros etiquetados de pacientes que han sufrido ictus y desplegada en una aplicación de usuario por linea de comandos. Se componen de 11 caracteristicas o variables de entrada y su correspondiente columna etiquetada de salida (Si/No).
+Debido a que son datos etiquetados , es posible abordar la solución desde un enfoque de aprendizaje supervisado en el marco del Machine Learning.
 
 Se realizaron 6 etapas fundamentales: Analisis Exploratorio de datos, limpieza e ingenieria de caracteristicas , preprocesado y transformacion de los datos , entrenamiento y evaluacion del modelo, desarrollo de la aplicacion de despliegue del modelo e implemntación.
 
@@ -14,7 +15,7 @@ El desarrollo del proyecto se realizó segun las siguientes fases:
 * Aplicar técnicas estadísticas para comprender mejor los datos y cómo se puede esperar que la muestra represente la población de datos del mundo real, teniendo en cuenta la variación aleatoria. Además ,al ser un problema de clasificación binaria, se evalua si los datos están balanceados en sus etiquetas de predicción.
 * Visualización :examen de los datos sin procesar,  utilizando tecnicas de estadistica descriptiva para proporcionar una evaluación cualitativa rápida de los datos, a fin de entender los resultados, encontrar valores atípicos, comprender la distribución de los valores las variables numericas,medidas de tendencia central (media,moda , mediana y varianza),función de densidad de probabilidad,etc.
 * Preparar datos: Procesamiento, limpieza y transformacion de los datos (normalización)
-* Entrenar de los modelos: Division de los datos en dos conjuntos (datos de entrenamiento y datos de validación). Entrenamiento del modelo con datos de entrenamiento y, posteriormente, evaluacion del rendimiento modelo de  mediante el conjunto de datos de validación. 
+* Entrenar  los modelos: Division de los datos en dos conjuntos (datos de entrenamiento y datos de validación). Entrenamiento del modelo con datos de entrenamiento y, posteriormente, evaluacion del rendimiento modelo de  mediante el conjunto de datos de validación. 
 * Evaluar el rendimiento: Comparacion de la proximidad de las predicciones del modelo con las etiquetas conocidas, basandome en determinadas métricas del modelo, tales como precision, exactitud o sensibilidad.
 * Seleccion del modelo y optimizacion para mejorar su rendimiento. Elaboracion de informe de rendimiento en Dash (Python)
 * Implementación del servicio predictivo: Uso efectivo del modelo predictivo a traves de una aplicacion cliente, desarrollada en Python, con una aplicacion CLI. Esta es la solucion final que puede ser desplegada  en un servidor o dispositivo para que otros usuarios puedan usarlo.
